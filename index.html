@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
     <title>Entrenamiento Musical</title>
@@ -19,7 +19,45 @@
 
 <body>
 
-    <!-- HERO -->
+    <!-- BAR -->
+    <header class="topbar">
+
+        <div class="container topbar-content">
+
+
+            <div class="logo-area">
+
+
+                <div class="logo-box">
+                    <img src="../home.v1.0/img/logo..png" alt="">
+
+                </div>
+
+                <h2 class="logo-text">
+                    QBYT
+                </h2>
+
+            </div>
+
+            <!-- BOTON-->
+            <div class="auth-buttons">
+
+                <a href="#" class="btn-login">
+                    <i class="bi bi-box-arrow-in-right">
+
+                        Iniciar sesión</i>
+                </a>
+
+                <a href="#" class="btn-register">
+                    Registrarse
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
     <header class="hero">
         <div class="container">
             <div class="hero-content text-center mx-auto">
@@ -51,12 +89,12 @@
         </div>
     </header>
 
-    <!-- NAVBAR -->
+    <!-- NAV -->
     <nav class="main-nav navbar navbar-expand-lg">
 
         <div class="container">
 
-            <!-- BOTÓN MÓVIL -->
+            <!-- BOTÓN-->
             <button class="navbar-toggler border-0 shadow-none ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#menu">
 
@@ -81,6 +119,13 @@
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link text-white fw-semibold" href="#Lo ultimo agregado">
+                            Lo ultimo
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
                         <a class="nav-link text-white fw-semibold" href="#beneficios">
                             Beneficios
                         </a>
@@ -100,7 +145,19 @@
 
     </nav>
 
-    <!-- MAIN -->
+    <div class="card-moderno">
+        <h3>Aprende musica, con nosotros</h3>
+
+        <p>
+            Musicca mejora tu capacidad para leer, escribir y tocar música a través de
+            ejercicios efectivos y contenido atractivo.
+        </p>
+
+        <div class="card-buttons">
+            <a href="#" class="btn-register">Comencemos</a>
+        </div>
+    </div>
+
     <main class="container">
 
         <!-- CARDS -->
@@ -120,6 +177,10 @@
                         acordes y progresiones.
                     </p>
 
+                    <i class="bi bi-arrow-right-circle">
+
+                        Siguiente</i>
+
                 </article>
             </div>
 
@@ -132,6 +193,10 @@
                         Lecciones prácticas para dominar tu instrumento
                         con precisión.
                     </p>
+
+                    <i class="bi bi-arrow-right-circle">
+
+                        Siguiente</i>
 
                 </article>
             </div>
@@ -146,12 +211,118 @@
                         y sonar más natural.
                     </p>
 
+                    <i class="bi bi-arrow-right-circle">
+
+                        Siguiente</i>
+
                 </article>
             </div>
 
         </section>
 
-        <!-- BENEFICIOS -->
+        <!-- LO ÚLTIMO AGREGADO -->
+        <section id="Lo ultimo agregado" class="feature-section">
+
+            <h2 class="text-center mb-5">
+                Lo último agregado
+            </h2>
+
+            <div class="row g-4">
+
+                <!-- CARD 1 -->
+                <div class="col-md-3">
+                    <div class="feature-card h-100 text-center d-flex flex-column justify-content-between p-3">
+
+                        <div>
+                            <img src="https://aprendomusica.com/imagen/cards/quiz_tempo_01.png"
+                                class="img-fluid rounded mb-3" alt="Curso Sol y Mi">
+
+                            <h3>Sol y Mi</h3>
+
+                            <p>
+                                Aprende a reconocer notas básicas en el pentagrama.
+                            </p>
+                        </div>
+
+                        <div class="mt-auto text-end">
+                            <a href="#" class="card-btn btn-register btn-start">
+                                Más detalles
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- CARD 2 -->
+                <div class="col-md-3">
+                    <div class="feature-card h-100 text-center d-flex flex-column justify-content-between p-3">
+
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.ps64LUJDKJ6jBT7zyfisfwHaHa?cb=thfc1falcon&rs=1&pid=ImgDetMain&o=7&rm=3"
+                            class="img-fluid rounded mb-3" alt="Nota La">
+
+                        <h3>Nota La</h3>
+
+                        <p>
+                            Mejora tu oído musical practicando nuevas notas.
+                        </p>
+
+                        <div class="mt-auto text-end">
+                            <a href="#" class="card-btn btn-register btn-start">
+                                Más detalles
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-md-3">
+                    <div class="feature-card h-100 text-center d-flex flex-column justify-content-between p-3">
+
+                        <img src="https://blog.laminasyaceros.com/hs-fs/hubfs/Musica%20y%20cerebro%20laminas%20y%20aceros.jpg?width=1350&name=Musica%20y%20cerebro%20laminas%20y%20aceros.jpg"
+                            class="img-fluid rounded mb-3" alt="Simon Musical">
+
+                        <h3>Simón Musical</h3>
+
+                        <p>
+                            Pon a prueba tu memoria auditiva con sonidos y ritmo.
+                        </p>
+
+                        <div class="mt-auto text-end">
+                            <a href="#" class="card-btn btn-register btn-start">
+                                Más detalles
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-md-3">
+                    <div class="feature-card h-100 text-center d-flex flex-column justify-content-between p-3">
+
+                        <img src="https://cdn-icons-png.flaticon.com/512/3659/3659899.png"
+                            class="img-fluid rounded mb-3" alt="Teclado Musical">
+
+                        <h3>Teclado Mágico</h3>
+
+                        <p>
+                            Practica melodías y coordinación.
+                        </p>
+
+                        <div class="mt-auto text-end">
+                            <a href="#" class="card-btn btn-register btn-start">
+                                Más detalles
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
         <section id="beneficios" class="feature-section">
 
             <h2 class="text-center mb-5">
@@ -223,7 +394,6 @@
 
             <p class="mt-4">
                 &copy; 2026 Entrenamiento Musical.
-                Todos los derechos reservados.
             </p>
 
         </div>
