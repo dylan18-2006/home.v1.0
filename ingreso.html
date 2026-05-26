@@ -81,7 +81,7 @@
                             Selecciona tu rol
                         </label>
 
-                        <select class="form-select custom-input" required>
+                        <select class="form-select custom-input" id="rolSelect" required>
 
                             <option selected disabled>
                                 Selecciona una opción
@@ -95,13 +95,18 @@
                                 Docente
                             </option>
 
-                            <option value="estudiante">
-                                Estudiante
+                            <option value="./estudiante/perfilestu.html">
+                                 Estudiante</a>
                             </option>
 
                         </select>
 
                     </div>
+                    <script>
+                       document.getElementById("rolSelect").addEventListener("change", function () {
+                        window.location.href = this.value;
+                    });
+                    </script>
 
                     <!-- BOTON -->
                     <button type="submit" class="login-btn w-100">

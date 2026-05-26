@@ -1,0 +1,121 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #5CB6F9, #334DE5);
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background-color: #5CB6F9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,2);
+}
+
+/* CONTENEDOR PRINCIPAL */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* SECCIONES TIPO TARJETA */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* TÍTULOS */
+h2 {
+    margin-bottom: 10px;
+    color: #1f2a44;
+}
+
+/* LISTAS */
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+}
+/* Contenedor para ubicar el botón (ejemplo: arriba a la derecha) */
+.logout-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+/* Estilo del botón */
+.btn-logout {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #e74c3c; /* Rojo elegante */
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Icono opcional */
+.btn-logout .icon {
+    margin-right: 8px;
+    font-size: 1.1rem;
+}
+
+/* Efectos al pasar el mouse */
+.btn-logout:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Efecto al hacer clic */
+.btn-logout:active {
+    transform: translateY(0);
+}
+/* BOTÓN DE CLASE */
+.boton-clase {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #5CB6F9;
+    color: white;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.boton-clase:hover {
+    background-color: #334DE5;
+}
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f2a44;
+    color: white;
+    margin-top: 20px;
+}
