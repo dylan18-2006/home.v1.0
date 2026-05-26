@@ -15,14 +15,14 @@ body{
 }
 
 /* SECTION */
-.login-section{
+.register-section{
     width: 100%;
     padding: 30px;
 }
 
 /* CARD */
-.login-card{
-    max-width: 450px;
+.register-card{
+    max-width: 500px;
     background: rgba(255,255,255,0.08);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(255,255,255,0.1);
@@ -33,35 +33,35 @@ body{
 
 /* LOGO */
 .logo-circle{
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #5293B3, #5ecbff);
+    background: linear-gradient(135deg, #5ecbff);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 38px;
     color: white;
 }
 
-.login-card h1{
+.register-card h1{
     font-size: 2rem;
     font-weight: 800;
     margin-bottom: 10px;
 }
 
-.login-card p{
+.register-card p{
     color: #d1d5db;
 }
 
 /* INPUTS */
 .custom-input{
     height: 55px;
-    border-radius: 30px;
-    border: none;
-    background: rgba(255,255,255,0.12);
-    color: white;
-    padding-left: 15px;
+    border-radius: 30px !important;
+    border: none !important;
+    background: rgba(255,255,255,0.12) !important;
+    color: white !important;
+    padding-left: 15px !important;
 }
 
 .custom-input::placeholder{
@@ -69,23 +69,28 @@ body{
 }
 
 .custom-input:focus{
-    background: rgba(255,255,255,0.18);
-    box-shadow: none;
-    color: white;
+    background: rgba(255,255,255,0.18) !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+/* SELECT */
+select.custom-input option{
+    color: black;
 }
 
 /* BOTON */
-.login-btn{
+.register-btn{
     border: none;
     height: 55px;
     border-radius: 30px;
     font-weight: 700;
     color: white;
-    background: linear-gradient(135deg,  #5293B3, #5ecbff);
+    background: linear-gradient(135deg, #5ecbff);
     transition: 0.3s;
 }
 
-.login-btn:hover{
+.register-btn:hover{
     transform: translateY(-2px);
 }
 
